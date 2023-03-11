@@ -75,7 +75,7 @@ Sau in PyCharm intram in meniul File -> Settings -> Tools -> Terminal si schimba
 
 driver = webdriver.Chrome()
 
-# ALTERNATIVA: (varianta cu webdriver manager), folosit in versiuni anterioare de Python (sub 3.7):
+# ALTERNATIVA: (varianta cu webdriver managser), folosit in versiuni anterioare de Python (sub 3.7):
 # driver = webdriver.Chrome(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
 
 # Declaram o constanta de tip string cu linkul pe care il vom deschide in browser
